@@ -8,14 +8,12 @@ public class Viento extends Instrumento {
         super(nombre, precio);
     }
 
-    // metodo abstracto
+    // method abstract
 
     public void tocar(){
         System.out.println("Está sonando un instrumento de viento.");;
     }
-    @Override
-    public String toString(){
-        return String.format("Nombre: %d - Precio: %.2f €");
-    }
+
+
 
 }

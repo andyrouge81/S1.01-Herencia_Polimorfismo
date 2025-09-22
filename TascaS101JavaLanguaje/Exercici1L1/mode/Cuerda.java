@@ -7,14 +7,11 @@ public class Cuerda extends Instrumento{
 
     }
 
-    // metodo abstracto
+    // abstract method
 
     public void tocar(){
         System.out.println("Está sonando un instrumento de cuerda.");
     }
 
-    @Override
-    public String toString(){
-        return String.format("Nombre: %d - Precio: %.2f €");
-    }
+
 }

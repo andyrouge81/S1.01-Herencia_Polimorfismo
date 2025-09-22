@@ -8,13 +8,13 @@ import TascaS101JavaLanguaje.Exercici1L1.mode.Viento;
 public class MainInstrumento {
     public static void main(String[] args) {
 
-        // creamos los intrumentos
+        // we create the objects
 
         Instrumento viento1 = new Viento("Trompeta", 200);
         Instrumento cuerda1 = new Cuerda("Guitarra", 150);
         Instrumento percusion1 = new Percusion("Bateria", 300);
 
-        // visualizamos instrumentos
+        // we show the methods in each instrument
         viento1.tocar();
 
         cuerda1.tocar();

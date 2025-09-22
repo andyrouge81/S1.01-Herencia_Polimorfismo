@@ -13,7 +13,5 @@ public abstract class Instrumento {
     // metodo abstracto
     public abstract void tocar();
 
-    public String toString(){
-        return String.format("Nombre: %d - Precio: %.2f €", nombre, precio);
-    }
+
 }
