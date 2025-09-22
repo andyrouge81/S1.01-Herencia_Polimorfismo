@@ -1,7 +1,7 @@
 package TascaS101JavaLanguaje.Exercici2L1.mode;
 
 public class Coche {
-    // atributos de clase
+    // class fields
 
     private final static String MARCA = "Porsche";
     private static String modelo;
@@ -20,7 +20,7 @@ public class Coche {
     public String getModelo(){return modelo;}
     public int getPOTENCIA(){ return POTENCIA;}
 
-    // metodos
+    // methods
     public static void frenar(){
         System.out.println("El vehículo está frenando.");
     }
