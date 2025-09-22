@@ -2,7 +2,6 @@ package TascaS101JavaLanguaje.Exercici1L1.mode;
 
 public class Viento extends Instrumento {
 
-
     //constructor
     public Viento(String nombre, double precio){
         super(nombre, precio);

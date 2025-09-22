@@ -21,15 +21,5 @@ public class MainInstrumento {
 
         percusion1.tocar();
 
-
-
-
-
-
-
-
-
-
-
     }
 }
